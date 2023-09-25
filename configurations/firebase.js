@@ -4,7 +4,9 @@ import { getFirestore, collection } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_CONFIG_APIKEY,
+  //apiKey: process.env.NEXT_PUBLIC_FIREBASE_CONFIG_APIKEY,
+  //solving the initial api key error
+  apiKey: "AIzaSyCC7jA5-FfoOahzAp37Z0TFtd2VFV6KKs8",
   authDomain: "pc-palace-firebase.firebaseapp.com",
   projectId: "pc-palace-firebase",
   storageBucket: "pc-palace-firebase.appspot.com",
